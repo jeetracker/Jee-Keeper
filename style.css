@@ -18,6 +18,12 @@ body{
     margin-top:-10px;
 }
 
+.quote {
+    text-align: center;
+    color: #00ff88;
+    font-style: italic;
+}
+
 .name{
     color:white;
     font-weight:600;
@@ -36,6 +42,10 @@ body{
     display:flex;
     justify-content:space-between;
     padding:10px 0;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
 }
 
 .progress-bar{
